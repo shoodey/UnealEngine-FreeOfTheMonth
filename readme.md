@@ -1,4 +1,4 @@
-| _Using python because it was randomly selected as a technology. I bear no responsibility..._
+> _Using python because it was randomly selected as a technology. I bear no responsibility..._
 
 # Motivations
 
