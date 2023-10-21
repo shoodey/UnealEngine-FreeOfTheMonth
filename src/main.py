@@ -97,11 +97,10 @@ def run():
 # Main function
 # Schedules the job to run every Tuesday at 9:00 AM
 def main():
-    schedule.every().tuesday.at("9:00").do(run)
+    schedule.every().tuesday.at("09:00").do(run)
     while True:
         schedule.run_pending()
         time.sleep(1)
-    run()
 
 
 if __name__ == "__main__":
